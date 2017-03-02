@@ -3,7 +3,7 @@ package com.yyglider.ioc;
 import com.yyglider.factory.impl.ClassFactoryImpl;
 import com.yyglider.ioc.annotation.Bean;
 import com.yyglider.ioc.exception.InitializeError;
-import com.yyglider.mvc.annotation.Controller;
+import com.yyglider.mvc.annotation.WebController;
 import com.yyglider.utils.base.ConfigUtil;
 
 import java.util.HashMap;
@@ -32,7 +32,7 @@ public class BeanManager {
             for(Class<?> cls:classList){
                 if(cls.isAnnotationPresent(Bean.class)
 //                        || cls.isAnnotationPresent(Service.class)
-                        || cls.isAnnotationPresent(Controller.class)
+                        || cls.isAnnotationPresent(WebController.class)
 //                        || cls.isAnnotationPresent(Aspect.class)
                 ){
                     Object beanInstance = cls.newInstance();//这里要求类必须有空构造函数才行。

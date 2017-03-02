@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ClassFactoryImpl implements ClassFactory{
 
-    public List<Class<?>> getClassList(String packageName) {
+    public  List<Class<?>> getClassList(String packageName) {
         return new ClassScannerTemplate(packageName) {
             @Override
             public boolean checkAddClass(Class<?> cls) {

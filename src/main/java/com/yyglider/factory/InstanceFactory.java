@@ -1,7 +1,7 @@
 package com.yyglider.factory;
 
-import com.yyglider.utils.base.ConfigUtil;
 import com.yyglider.utils.ObjectUtil;
+import com.yyglider.utils.base.ConfigUtil;
 import com.yyglider.utils.base.StringUtil;
 
 import java.util.Map;
@@ -41,4 +41,6 @@ public class InstanceFactory {
         // 返回该实例
         return instance;
     }
+
+
 }

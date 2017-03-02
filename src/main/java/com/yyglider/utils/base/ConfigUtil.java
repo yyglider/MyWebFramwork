@@ -18,4 +18,11 @@ public class ConfigUtil {
     public static String getString(String key) {
         return PropsUtil.getString(configProps, key);
     }
+
+    /**
+     * 获取 int 类型的属性值（可指定默认值）
+     */
+    public static int getInt(String key, int defaultValue) {
+        return PropsUtil.getNumber(configProps, key, defaultValue);
+    }
 }

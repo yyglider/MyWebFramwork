@@ -7,10 +7,11 @@ import java.lang.annotation.Target;
 
 /**
  * Created by yaoyuan on 2017/2/20.
- * 请求类型注解
+ * 控制器注解
+ * 注解的相关说明可参考：http://tutorials.jenkov.com/java/annotations.html
  */
-
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Request {
+public @interface WebController {
+
 }

@@ -36,7 +36,7 @@ public class InjectBeanInitializer {
                             if(implClass != null){
                                 Object implInstance = beanContainer.get(implClass);
                                 if(implInstance != null){
-                                    beanField.setAccessible(true);// 将字段设置为 public
+                                    beanField.setAccessible(true);// 取消访问安全检测（可提高反射效率）
                                     beanField.set(beanInstance,implInstance);// 设置字段初始值(实例对象 和 该实例对象的具体实现 绑定）
                                 }else{
                                     throw new InitializeError("依赖注入失败！类名：" + beanClass.getSimpleName() + "，字段名：" + interfaceClass.getSimpleName());
