@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Created by yaoyuan on 2017/2/24.
+ * Created by yyglider on 2017/2/24.
  */
 public class TestControllerManager {
 

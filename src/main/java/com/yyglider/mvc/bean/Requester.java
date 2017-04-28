@@ -1,7 +1,7 @@
 package com.yyglider.mvc.bean;
 
 /**
- * Created by yaoyuan on 2017/2/23.
+ * Created by yyglider on 2017/2/23.
  */
 public class Requester{
     private String requestMethod;

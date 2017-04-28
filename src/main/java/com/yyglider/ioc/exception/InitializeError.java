@@ -1,7 +1,7 @@
 package com.yyglider.ioc.exception;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  */
 public class InitializeError extends Error{
     public InitializeError(String message){

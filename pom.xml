@@ -43,11 +43,7 @@
             <version>${junit.version}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.github.tomakehurst</groupId>
-            <artifactId>wiremock</artifactId>
-            <version>2.5.1</version>
-        </dependency>
+
         <!-- SLF4J -->
         <!-- 实现slf4j接口并整合 -->
         <dependency>

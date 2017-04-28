@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.io.*;
 
 /**
- * Created by yaoyuan on 2017/2/28.
+ * Created by yyglider on 2017/2/28.
  */
 public class StreamUtil {
     private static final Logger logger = LoggerFactory.getLogger(StreamUtil.class);

@@ -2,8 +2,10 @@ package com.yyglider.utils;
 
 import org.slf4j.LoggerFactory;
 
+import java.net.URL;
+
 /**
- * Created by yaoyuan on 2017/2/17.
+ * Created by yyglider on 2017/2/17.
  */
 /*
 * 类操作工具类
@@ -39,6 +41,18 @@ public final class ClassUtil {
             throw new RuntimeException(e);
         }
         return cls;
+    }
+
+    /**
+     * 获取类路径
+     */
+    public static String getClassPath() {
+        String classpath = "";
+        URL resource = getClassLoader().getResource("");
+        if (resource != null) {
+            classpath = resource.getPath();
+        }
+        return classpath;
     }
 
     /**

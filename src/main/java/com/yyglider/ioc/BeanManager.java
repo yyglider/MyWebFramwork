@@ -1,6 +1,6 @@
 package com.yyglider.ioc;
 
-import com.yyglider.factory.impl.ClassFactoryImpl;
+import com.yyglider.ioc.factory.impl.ClassFactoryImpl;
 import com.yyglider.ioc.annotation.Bean;
 import com.yyglider.ioc.exception.InitializeError;
 import com.yyglider.mvc.annotation.WebController;
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by yaoyuan on 2017/2/20.
+ * Created by yyglider on 2017/2/20.
  * Bean管理类，初始化所有的 Bean 类
  */
 public class BeanManager {

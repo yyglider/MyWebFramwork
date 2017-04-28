@@ -5,7 +5,7 @@ import org.apache.commons.collections.CollectionUtils;
 import java.util.Collection;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  */
 public class CollectionUtil {
 

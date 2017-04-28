@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
- * Created by yaoyuan on 2017/2/28.
+ * Created by yyglider on 2017/2/28.
  */
 public class ViewResolver {
 

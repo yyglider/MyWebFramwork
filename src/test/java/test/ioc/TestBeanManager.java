@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  */
 public class TestBeanManager {
 

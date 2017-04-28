@@ -1,8 +1,8 @@
 package com.yyglider.mvc;
 
 
-import com.yyglider.factory.ClassFactory;
-import com.yyglider.factory.impl.ClassFactoryImpl;
+import com.yyglider.ioc.factory.ClassFactory;
+import com.yyglider.ioc.factory.impl.ClassFactoryImpl;
 import com.yyglider.ioc.BeanManager;
 import com.yyglider.mvc.annotation.RequestMapping;
 import com.yyglider.mvc.annotation.WebController;
@@ -19,7 +19,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by yaoyuan on 2017/2/22.
+ * Created by yyglider on 2017/2/22.
  *
  *
  */

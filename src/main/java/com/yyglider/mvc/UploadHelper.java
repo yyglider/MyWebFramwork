@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 
 /**
- * Created by yaoyuan on 2017/3/1.
+ * Created by yyglider on 2017/3/1.
  */
 public class UploadHelper {
     public static final org.slf4j.Logger logger = LoggerFactory.getLogger(UploadHelper.class);

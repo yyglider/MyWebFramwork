@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 
 /**
- * Created by yaoyuan on 2017/2/22.
+ * Created by yyglider on 2017/2/22.
  */
 @WebServlet("/*")
 public class Dispatcher extends HttpServlet {
@@ -21,6 +21,7 @@ public class Dispatcher extends HttpServlet {
 
     private final ControllerManager controllerManager = new ControllerManager();
     private final HandlerInvoker handlerInvoker = new HandlerInvoker();
+    private final HandlerExceptionResolver handlerExceptionResolver = new HandlerExceptionResolver();
 
     public void service(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
         //默认使用UTF-8编码
@@ -53,16 +54,16 @@ public class Dispatcher extends HttpServlet {
         }
 
         // 初始化 DataContext
-//        DataContext.init(request, response);
+        DataContext.init(request, response);
         try {
             // 调用 Handler
             handlerInvoker.invokeHandler(request, response, handler);
         } catch (Exception e) {
             // 处理 Action 异常
-//            handlerExceptionResolver.resolveHandlerException(request, response, e);
+            handlerExceptionResolver.resolveHandlerException(request, response, e);
         } finally {
             // 销毁 DataContext
-//            DataContext.destroy();
+            DataContext.destroy();
         }
 
 

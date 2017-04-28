@@ -3,7 +3,7 @@ package com.yyglider.utils.base;
 import org.apache.commons.lang.ArrayUtils;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  * 数组操作工具类
  */
 public class ArrayUtil {

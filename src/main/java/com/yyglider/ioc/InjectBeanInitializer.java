@@ -1,7 +1,7 @@
 package com.yyglider.ioc;
 
-import com.yyglider.factory.ClassFactory;
-import com.yyglider.factory.impl.ClassFactoryImpl;
+import com.yyglider.ioc.factory.ClassFactory;
+import com.yyglider.ioc.factory.impl.ClassFactoryImpl;
 import com.yyglider.ioc.annotation.Autowired;
 import com.yyglider.ioc.annotation.Impl;
 import com.yyglider.ioc.exception.InitializeError;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  * Bean初始化器，对含有Autowired注解的接口filed绑定到其实现类，并进行初始化
  */
 public class InjectBeanInitializer {

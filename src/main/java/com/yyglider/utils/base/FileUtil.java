@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 
 /**
- * Created by yaoyuan on 2017/3/2.
+ * Created by yyglider on 2017/3/2.
  */
 public class FileUtil {
 

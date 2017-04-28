@@ -3,7 +3,7 @@ package com.yyglider.utils.base;
 import java.util.Properties;
 
 /**
- * Created by yaoyuan on 2017/2/17.
+ * Created by yyglider on 2017/2/17.
  */
 public class ConfigUtil {
 

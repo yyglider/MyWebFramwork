@@ -1,7 +1,7 @@
 package com.yyglider.utils.base;
 
 /**
- * Created by yaoyuan on 2017/2/21.
+ * Created by yyglider on 2017/2/21.
  */
 
 import com.yyglider.utils.ClassUtil;
