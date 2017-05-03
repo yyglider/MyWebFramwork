@@ -7,9 +7,6 @@ import java.net.URL;
 
 /**
  * 类操作工具类
- *
- * @author huangyong
- * @since 1.0
  */
 public class ClassUtil {
 

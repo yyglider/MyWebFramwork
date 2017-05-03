@@ -91,7 +91,7 @@
 
     (3) 提供默认实现 - 可以使用c3p0,durid,dbcp等实现
 
-### 5、DataAccessor -dao.*
+### 5、DataAccessor,TransactionProxy -dao.*,tx
         所谓数据访问器（DataAccessor）其实就是通过 JDBC 操作数据库的一个接口。
 
         1、DataAccessor接口，提供通用的DAO操作

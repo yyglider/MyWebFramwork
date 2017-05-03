@@ -84,7 +84,7 @@ public class DatabaseHelper {
     /**
      * 开启事务
      */
-    public static void beginTransaction() {
+    public static void kbeginTransaction() {
         Connection conn = getConnection();
         if (conn != null) {
             try {

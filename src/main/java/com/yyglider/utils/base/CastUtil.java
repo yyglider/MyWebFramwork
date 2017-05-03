@@ -2,9 +2,6 @@ package com.yyglider.utils.base;
 
 /**
  * 转型操作工具类
- *
- * @author huangyong
- * @since 1.0
  */
 public class CastUtil {
 
